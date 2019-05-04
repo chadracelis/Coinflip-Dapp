@@ -1,0 +1,59 @@
+[
+    {
+        "constant": true,
+        "inputs": [],
+        "name": "getBalance",
+        "outputs": [
+            {
+                "name": "",
+                "type": "uint256"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "constant": true,
+        "inputs": [
+            {
+                "name": "player",
+                "type": "address"
+            }
+        ],
+        "name": "getLastFlip",
+        "outputs": [
+            {
+                "name": "",
+                "type": "bool"
+            }
+        ],
+        "payable": false,
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "constant": false,
+        "inputs": [],
+        "name": "flip",
+        "outputs": [],
+        "payable": true,
+        "stateMutability": "payable",
+        "type": "function"
+    },
+    {
+        "constant": false,
+        "inputs": [],
+        "name": "deposit",
+        "outputs": [],
+        "payable": true,
+        "stateMutability": "payable",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "payable": false,
+        "stateMutability": "nonpayable",
+        "type": "constructor"
+    }
+]

@@ -1,0 +1,17 @@
+{
+    "compile": {
+        "gasEstimates": {
+            "creation": {
+                "codeDepositCost": "141800",
+                "executionCost": "20456",
+                "totalCost": "162256"
+            },
+            "external": {
+                "deposit()": "175",
+                "flip()": "infinite",
+                "getBalance()": "607",
+                "getLastFlip(address)": "629"
+            }
+        }
+    }
+}
